@@ -24,7 +24,15 @@ body{
 .container{
     margin: 30px auto;
     padding: 0 30px;
+    
 }
+
+.img img{
+    max-width: 100%;
+    display: inherit;
+    
+}
+
 
 .grid{
     max-width: 700px;
@@ -33,20 +41,17 @@ body{
     background-color:aliceblue;
     border-radius: 15px;
     overflow: hidden;
+    
 }
 
-.img-container img{
-    max-width: 100%;
-    display:inherit;
-
-}
-
-.description{
-    padding: 35px;
+.card{
+    padding: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
+    
 
 h6.titulo{
     text-transform: uppercase;
@@ -54,6 +59,8 @@ h6.titulo{
     font-size: 13px;
     color: green;
     font-weight: 500;
+    
+    
 }
 
 h2.nome{
@@ -61,13 +68,45 @@ h2.nome{
     font-size: 32px;
     line-height: 1em;
     color: navy;
+    margin-bottom: 
 }
 
 p.notas{
     color: green;
     line-height: 1.6em;
+    justify-content: space-between;
+    
+}
+
+.price{
+    display: flex;
+    align-items: center;
 }
 
 p.preco-atual{
     font-family:'Exo 2', sans-serif;
+    color: gold;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+p.old-price{
+    color: blue;
+    text-decoration: line-through;
+}
+
+button.cart{
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 12px 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button.cart:hover{
+    background-color: blue;
+    transition: 2s;
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
