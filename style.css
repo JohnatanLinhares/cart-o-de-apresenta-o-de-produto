@@ -13,7 +13,7 @@ font-family: 'Montserrat', sans-serif;*/
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: lightskyblue;
+    background-color:rgb(88, 161, 235);
     font-size: 14px;
     min-height: 100vh;
     display: flex;
@@ -30,6 +30,7 @@ body{
 .img img{
     max-width: 100%;
     display: inherit;
+    height: 100%;
     
 }
 
@@ -38,7 +39,7 @@ body{
     max-width: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color:aliceblue;
+    background-color:whitesmoke;
     border-radius: 15px;
     overflow: hidden;
     
@@ -48,7 +49,7 @@ body{
     padding: 32px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  
     
 }
     
@@ -59,6 +60,7 @@ h6.titulo{
     font-size: 13px;
     color: green;
     font-weight: 500;
+    margin-bottom: 30px;
     
     
 }
@@ -68,13 +70,15 @@ h2.nome{
     font-size: 32px;
     line-height: 1em;
     color: navy;
-    margin-bottom: 
+    margin-bottom: 45px;
+
 }
 
 p.notas{
     color: green;
     line-height: 1.6em;
     justify-content: space-between;
+    margin-bottom: 30px;
     
 }
 
